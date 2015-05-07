@@ -1,0 +1,25 @@
+{
+  "name": "Tom's Quick Search",
+  "description": "Using this extention will allow you to search your favorite website fast and easy",
+  
+  "omnibox": {
+    "keyword": "qs"
+          },
+  "icons": {
+    "48": "icon48.png"
+  },
+  "background": {
+    "scripts": ["jquery.js","background.js"]
+  },
+  "version": "1.6",
+  "minimum_chrome_version": "9",
+  "manifest_version": 2,
+  "permissions": [
+    "storage"
+    ],
+  "browser_action": 
+  {
+    "default_icon": "icon48.png",
+    "default_popup": "popup.html"
+  }
+}

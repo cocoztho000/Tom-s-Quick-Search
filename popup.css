@@ -1,0 +1,126 @@
+p, li, ul, ol {
+        	margin: 0;
+        	padding: 0;
+        }
+    	html {
+
+        background-color: #F0F0F0;
+    	}
+      body 
+      {
+      	background-color: #F0F0F0;
+        color: #5F5F5F;
+        font-family: 'Lato',serif;
+        overflow-x: hidden;
+        margin: 0;
+        padding-bottom: 5px;
+      }
+
+      .scroll_button_container {
+      	width: 400px;
+      	margin: 1px 21px 1px 21px;
+        padding-left: 10px;
+        padding-right: 10px;
+      	position: relative;
+      }
+      
+      .scroll_button {
+      	width: 100%;
+      	text-align: center;
+      	border: 1px solid;
+      	border-color: #F0F0F0;
+        border-radius: 4px;
+        color: #5F5F5F;
+      }
+      .scroll_button:hover {
+			background-color: #fff;
+			border: 1px solid;
+			border-color: #ccc;
+			cursor: pointer;
+      }
+    
+
+      #show_links {
+      		margin-top: 4px;
+      		background-color: #fff;
+    	    border: 1px solid;
+    	    border: 1px solid;
+	      	border-color: #ccc;
+	        border-radius: 4px;
+			    display: none;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 10px;
+      }
+      
+
+      .input1, .input2
+      {
+        margin-bottom: 4px;
+      }
+      .button1{
+      	 margin: 1px 10px 4px 10px;
+      }
+      .button_New {
+         margin: 1px 10px 4px 10px;
+      }
+
+    	.container{
+	    width:400px;
+	    /*padding: 5px 21px 5px 21px;*/
+	    background-color: #F0F0F0;
+	   	padding-right: 10px;
+	   	padding-left: 10px;
+	   	text-align: center; 
+		}
+
+	/*	#input_container {
+			padding-left:2px; 
+			padding-right: 4px;
+		}*/
+
+		#waypointsTable {
+			width: 100%;
+			text-align: center;
+		}
+		#waypointsTable th {
+			text-align: center;
+		}
+    .td1 {
+      width: 15%;
+      margin: 0;
+      padding: 0;
+    }
+		.td2 {
+			width: 70%;
+      margin: 0;
+      padding: 0;
+		  white-space:  nowrap;
+      
+			overflow: hidden;
+		}
+    .delete {
+      width: 15%;
+      margin: 0;
+      padding: 0;
+    }
+
+
+/*puts a line under the header and to the right of the first column*/
+		/*table tr.top:first-Child {
+			 border-bottom: thin solid grey; 
+		}
+		table tr.row td:first-child { 
+			border-right: thin solid grey; 
+		}*/
+
+
+		.table_row:hover {
+		    background-color:#c4c4c4;
+		    cursor: pointer;
+		}
+		.delete:hover {
+			color: red;
+		}
